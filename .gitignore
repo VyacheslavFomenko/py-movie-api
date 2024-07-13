@@ -4,6 +4,7 @@
 ### Django ###
 *.log
 *.pot
+.idea
 *.pyc
 __pycache__/
 local_settings.py

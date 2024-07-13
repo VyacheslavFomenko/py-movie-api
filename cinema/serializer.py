@@ -10,7 +10,7 @@ class MovieSerializer(serializers.ModelSerializer):
     duration = serializers.IntegerField(required=True)
 
     class Meta:
-        model = Movie  # Specify the model to serialize
+        model = Movie
         fields = '__all__'
 
     def create(self, validated_data):
